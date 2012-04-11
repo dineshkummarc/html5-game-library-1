@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Game!</title>
+		<script type="text/javascript" src="js/game.js"></script>
+		<script type="text/javascript" src="js/canvas.js"></script>
+		<script type="text/javascript" src="js/levels.js"></script>
+		<script type="text/javascript" src="js/audio.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body onload="Wibbly.game.start();">
+		<canvas id="game"></canvas>
+		<div id="media" style="display: none;">
+			<!-- Examples of how to add images and sounds -->
+			<img id="void" src="images/void.png" width="16" height="16" />
+			<img id="grass" src="images/grass.png" width="16" height="16" />
+			<audio id="test" preload="auto" src="sounds/test.wav"></audio>
+			<audio id="test2" preload="auto" src="sounds/Front_Center.wav"></audio>
+		</div>
+	</body>
+</html>
