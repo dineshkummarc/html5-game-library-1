@@ -18,6 +18,7 @@ Wibbly.levels = [
 			[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 		],
 		'exits': [],
-		'name': 'Meadow'
+		'name': 'Meadow',
+		'spawnPoint': { x: 128, y: 96 }
 	}
 ];
